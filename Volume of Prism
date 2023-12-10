@@ -1,0 +1,18 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+  float baseArea, height;
+
+  cout << "Enter the base area: ";
+  cin >> baseArea;
+  cout << "Enter the height: ";
+  cin >> height;
+
+  float volume = baseArea * height;
+
+  cout << "Volume: " << volume << endl;
+
+  return 0;
+}
